@@ -2,7 +2,7 @@ def prime?(num)
   if (num <= 1)
     return false
   else
-    i = num-1
+    i = Math.sqrt(num)
     while (i > 1)
       if (num % i != 0)
         i -= 1
